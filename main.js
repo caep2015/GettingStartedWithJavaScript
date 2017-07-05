@@ -28,13 +28,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A: undefined
+// A: 40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: undefined
+// A: 45
 
 
 // 7.
@@ -43,14 +43,14 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A:
+// A: let timsAge = "Tim is " + (today - born) = " years old"; console.log(timsAge);
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName;
-let instructorName;
+let yourName = "Carlota";
+let instructorName = "Ben";
 
 
 // 9.
@@ -60,64 +60,64 @@ let instructorName;
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-
+console.log(statement);
 
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+let myNumber = 35;
+let myString = "I love JavaScript";
+let myBoolean = (3>1);
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
-// A:
+// A: let myUndefined;
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
-// A.
+// A. true
 
 
 // 12.
 let y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A.
+// A. true
 
 
 // 14.
 let a = (null == null);
-// A.
+// A. true
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
+// A. true
 
 
 // 16.
 let c = (undefined == null);
-// A.
+// A. true
 
 
 // 17.
 let d = (null == false);
-// A.
+// A. false
 
 
 // 18.
 let e = (NaN == null);
-// A.
+// A. false
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. false
 
 
 // 20.
