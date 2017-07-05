@@ -21,7 +21,7 @@ givenName = givenName;
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A:  undefined
+// A:  Hello, how are you? Tim
 
 // 5.
 // What is `math` set to?
@@ -34,7 +34,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: 45
+// A: NaN
 
 
 // 7.
@@ -43,7 +43,8 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A: let timsAge = "Tim is " + (today - born) = " years old"; console.log(timsAge);
+// A:
+let timsAge = "Tim is " + (today - born) = " years old"; console.log(timsAge);
 
 
 // 8.
