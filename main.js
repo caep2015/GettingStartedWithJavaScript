@@ -142,8 +142,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
-
+// A: False!
 
 // 22.
 if(""){
@@ -151,7 +150,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A:  False!
 
 
 // 23.
@@ -163,7 +162,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: F
 
 
 // 24.
@@ -172,7 +171,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: F
 
 
 // 25.
@@ -181,7 +180,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: T
 
 
 // 26.
@@ -190,7 +189,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: T
 
 
 // 27.
@@ -199,7 +198,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: T
 
 
 // 28.
@@ -208,7 +207,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: T
 
 
 // 29.
@@ -217,7 +216,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: T
 
 
 // 30.
